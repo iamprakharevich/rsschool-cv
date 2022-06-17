@@ -24,6 +24,16 @@ nav{
     color: #fff;
 }
 
+.nav{
+    padding: 0;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
 h3{
     z-index: 1;
 }
