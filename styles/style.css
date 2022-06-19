@@ -1,0 +1,291 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+body{
+    width: 100%;
+    background-color: #161615;
+}
+
+header{
+    min-height: 100vh;
+    background: url("https://i.postimg.cc/05VKCWJV/image.png") no-repeat top center / cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 2rem; 
+    width: 80%;
+    height: 6rem;
+    max-width: 72rem; 
+    color: #fff;
+}
+
+.nav{
+    font-family: 'Recursive', sans-serif;
+    padding: 0;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+h3{
+    z-index: 1;
+}
+
+a.logo{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #F5CB5C;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    line-height: 4rem;
+    z-index: 1;
+}
+
+.hamburger_menu{ 
+    height: 4rem;
+    width: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    z-index:1;
+}    
+
+.bar{ 
+    width: 1.9rem; 
+    height: 1.5px; 
+    border-radius: 2px;
+    background-color: #E8EDDF;
+    position: relative; 
+}
+
+.bar::before, .bar::after{ 
+    content: ""; 
+    position: absolute;
+    width: inherit; 
+    height: inherit; 
+    background-color: #E8EDDF; 
+}
+
+.bar::before{ transform: translateY(-9px); }
+
+.bar::after{ transform: translateY(9px); }
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+h1.title{
+    font-family: 'Ms Madi', cursive;   
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.description{ 
+    font-family: 'Radio Canada', sans-serif; 
+    margin: 10px 0;
+    padding: 0; 
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.btn{ 
+    font-family: 'Recursive', sans-serif;
+    margin-top: 1rem; 
+    padding: 0.6rem 1.8rem;
+    background-color: #F5CB5C; 
+    border: none; 
+    border-radius: 25px;
+    color: #fff; 
+    text-transform: uppercase; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.learnmore{
+    font-family: 'Recursive', sans-serif;
+    text-decoration: none; 
+    color: #9ea3a1; 
+    padding: 1.3rem 0;
+    display: inline-block; 
+    font-size: 1rem; 
+    font-weight: 300;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    transition: 0.3s;
+}
+
+.learnmore:hover{ 
+    color: #F5CB5C; 
+}
+
+main{
+    height: auto;
+    align-items: center;
+    background-color: #161615;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 72rem;
+    color: #CFDBD5;
+    font-family: 'Recursive', sans-serif;
+}
+
+.contacts{
+    background-color:#242423;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+ul li{
+    display: list-item;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #CFDBD5;
+    transition: 0.3s;
+}
+
+a:hover{
+    color:#F5CB5C;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    line-height: 4rem;
+}
+
+.skills{
+    background-color: #333533;
+}
+
+.skills_box{
+    display: list-item;
+    width: 40vh;
+}
+
+.skills_grid{
+    display: grid;
+}
+
+.skills_bar{
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #E8EDDF;
+}
+
+.skills_bar-progress-html{
+    height: 8px;
+    width: 70%;
+    background-color:#F5CB5C;
+}
+
+.skills_bar-progress-css{
+    height: 8px;
+    width: 70%;
+    background-color:#F5CB5C;
+}
+
+.skills_bar-progress-git{
+    height: 8px;
+    width: 50%;
+    background-color:#F5CB5C;
+}
+
+.skills_bar-progress-js{
+    height: 8px;
+    width: 30%;
+    background-color:#F5CB5C;
+}
+
+.code_example{
+    background-color:#242423;
+}
+
+pre{
+    margin: 1rem 4rem;
+    background-color: #979899;
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    color: #161615;
+    width: 60%;
+}
+
+.education{
+    height: auto;
+    background-color: #333533;
+}
+
+.education_grid{
+    display: grid;
+}
+
+footer{
+    position: relative;
+    font-family: 'Recursive', sans-serif;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 0 2rem;
+    color: #E8EDDF;
+    background-color: #242423;
+}
+
+.footer_link{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: #F5CB5C;
+    font-size: 1.2rem;
+}
+
