@@ -27,7 +27,6 @@ nav{
 .nav{
     font-family: 'Recursive', sans-serif;
     padding: 0;
-    transition: 0.5s;
     z-index: 1;
 }
 
